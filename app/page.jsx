@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SelectionNav from "./Components/SelectionNav";
-import Dashlottie from "./Components/Dashlottie";
 import Lottie from "lottie-react";
 import animtion_1 from "@public/Animations/dashboard.json";
 import animtion_2 from "@public/Animations/scrolling.json";

@@ -33,13 +33,6 @@ export default function DashNav() {
   function go_to_projects() {
     router.push("/Dashboard/Projects");
   }
-  function go_to_linkd() {
-    router.push("/Dashboard/Projects");
-  }
-  function go_to_git() {
-    router.push("/Dashboard/Projects");
-  }
-
   return (
     <div className="flex flex-col h-full w-1/4 bg-darkerBG  shadow-lg shadow-bordBG xs:collapse xs:w-0">
       <div className="flex justify-center items-center h-40 w-full  ">
