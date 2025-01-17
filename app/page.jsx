@@ -2,11 +2,12 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SelectionNav from "./Components/SelectionNav";
-import Lottie from "lottie-react";
 import animtion_1 from "@public/Animations/dashboard.json";
 import animtion_2 from "@public/Animations/scrolling.json";
 import { useRef } from "react";
+import dynamic from "next/dynamic";
 
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 export default function Restart() {
   const lottieRef = useRef(null); // Reference to the Lottie instance
   const lottieRef2 = useRef(null);

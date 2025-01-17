@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
 import animtion_3 from "@public/Animations/laptop_animation.json";
 import animtion_4 from "@public/Animations/Contact.json";
 import animtion_5 from "@public/Animations/contacting.json";
@@ -35,6 +34,9 @@ import joe_img from "@public/Assets/Joe.jpeg";
 import bram_img from "@public/Assets/bram.jpeg";
 import ron_img from "@public/Assets/ron.png";
 import me_img from "@public/Assets/box_face.png";
+import dynamic from "next/dynamic";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 export default function longstrip_view() {
   const [openIndex, setOpenIndex] = useState(null);
