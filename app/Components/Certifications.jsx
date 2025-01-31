@@ -9,7 +9,7 @@ const Certifications = () => {
   const items = [
     {
       title: "Python for Data Analysis",
-      subtitle: "May 2024 - Current",
+      subtitle: "Nov 2022",
       content: [
         <span
           onClick={go_to_cert}
@@ -21,7 +21,7 @@ const Certifications = () => {
     },
     {
       title: "SQL and Databases",
-      subtitle: "Jan 2024 - May 2024",
+      subtitle: "Dec 2022",
       content: [
         <span
           onClick={go_to_cert}
@@ -33,7 +33,7 @@ const Certifications = () => {
     },
     {
       title: "Fundamentals of Design",
-      subtitle: "July 2022 - Aug 2023",
+      subtitle: "Jan 2024",
       content: [
         <span
           onClick={go_to_cert}

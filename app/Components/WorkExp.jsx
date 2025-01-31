@@ -7,7 +7,7 @@ const WorkExp = () => {
 
   const items = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       subtitle: "May 2024 - Current",
       content: [
         <span className="text-purpBG text-md font-abc font-medium  inline-block mb-2">
@@ -52,18 +52,18 @@ const WorkExp = () => {
       ],
     },
     {
-      title: "ICT Intern",
+      title: "Software Development Intern",
       subtitle: "Sept 2021 - Dec 2021",
       content: [
         <span className="text-purpBG text-md font-abc font-medium inline-block mb-2">
           ~ ICT Authority
         </span>,
         <br key="1" />,
-        "- Designed and developed an intuitive, user-friendly web platform that provides farmers with access to agronomy , insurance, loans, veterinary services, and a virtual market.",
+        "- Developed python scripts for monitoring network performance and automating maintenance alerts  across all 53 regions under the organisation, reducing downtime and improving response time for connectivity issues.",
         <br key="2" />,
-        "- Integrated payment gateways and loan management systems, allowing farmers to easily manage their finances within the platform.",
+        "- Configured backups for the Government Common Core Network and National Optical Fiber Backbone, increasing network uptime by 12%",
         <br key="3" />,
-        "-Optimized front-end performance and SEO to increase site visibility and ensure a smooth, fast experience for all users.",
+        "- Collaborated with the tech lead to integrate and deploy a new Libre Network Management System, enhancing network monitoring by 50%",
       ],
     },
   ];

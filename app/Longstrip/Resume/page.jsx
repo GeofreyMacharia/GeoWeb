@@ -27,7 +27,7 @@ export default function Resume() {
         <iframe
           className="w-full h-full object-cover"
           title="Resume"
-          src="/Assets/Rez.pdf"
+          src="/Assets/My_resume.pdf"
         />
       </div>
     </div>

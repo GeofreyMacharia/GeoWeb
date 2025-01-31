@@ -35,6 +35,7 @@ import bram_img from "@public/Assets/bram.jpeg";
 import ron_img from "@public/Assets/ron.png";
 import me_img from "@public/Assets/box_face.png";
 import dynamic from "next/dynamic";
+import about_img from "@public/Assets/all_me.png";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
@@ -309,8 +310,8 @@ export default function longstrip_view() {
           <div className="flex flex-row h-resize_w mt-8 w-72 xs:collapse">
             <div className="flex h-full w-72 xs:w-56">
               <Image
-                src={me_img}
-                alt="me_img"
+                src={about_img}
+                alt="about_img"
                 className="rounded-xl  object-cover z-[1]"
               />
             </div>

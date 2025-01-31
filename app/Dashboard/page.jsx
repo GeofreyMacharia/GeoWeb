@@ -141,13 +141,14 @@ export default function Testing() {
                     className="flex p-4 pt-3 text-justify h-3/4  w-full  text-sm text-white font-abc font-light lx:text-[12px] lx:font-xyz xb:text-[10px]
                   xs:text-[11px] mx_w:text-[9px] fmd:text-[14px]"
                   >
-                    My expertise spans both creative web development and
+                    My expertise spans both creative Software development and
                     data-driven solutions, combining technical skills with
-                    analytical thinking to deliver impactful results. <br />
-                    <br />
-                    My expertise spans both creative web development and
-                    data-driven solutions, combining technical skills with
-                    analytical thinking to deliver impactful results.
+                    analytical thinking to deliver impactful results. <br />I
+                    specialize in designing and developing intuitive,
+                    user-friendly interfaces as well as leverage my analytical
+                    skills to ensure that both the visual and functional aspects
+                    of digital solutions contribute to meaningful business
+                    outcomes."
                   </label>
 
                   <label
